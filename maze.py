@@ -32,10 +32,11 @@ class StackFrontier():
 
 
 class QueueFrontier(StackFrontier):
-    # start writing here
+    # Use deque instead of stack
     def __init__(self):
         self.frontier = collections.deque()
 
+    # Implement add and remove only
     def add(self, node):
         self.frontier.append(node)
 
