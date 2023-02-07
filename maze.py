@@ -1,3 +1,6 @@
+# CPSC 481 Assignment 1
+# Names: Daniel Cazarez, Aditya Shah
+
 import collections
 import sys
 
