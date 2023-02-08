@@ -47,6 +47,7 @@ class QueueFrontier(StackFrontier):
         if self.empty():
             raise Exception("empty frontier")
         else:
+            # FIFO order requires popleft
             node = self.frontier.popleft()
             return node
 
