@@ -1,5 +1,5 @@
 # CPSC 481 Assignment 1
-# Names: Daniel Cazarez, Aditya Shah, Genna Quach
+# Names: Daniel Cazarez, Aditya Shah, Genna Quach, Lea Albano
 
 import collections
 import sys
